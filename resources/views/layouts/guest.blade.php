@@ -2,9 +2,11 @@
 <html lang="pt-br">
 
 <head>
+    {{-- <meta name="description" content="Author: Cleiton dos Santos, Design: Dreyfus, Category: Site Escola Cristã, Length: 11 pages"> --}}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="description" content="Uma escola que nasceu para glória de Deus.">
 
     <meta property="og:type" content="website" /> <!-- TIPO DE ARQUIVO -->
     <meta property="og:url" content="https://www.escolagenebra.com.br/" /> <!-- ENDEREÇO DO SITE -->
