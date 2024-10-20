@@ -1,0 +1,69 @@
+.carousel-welcome {
+
+    .carousel-inner {
+
+        .content-slide-welcome {
+            position: relative;
+            width: 100%;
+            /* background-color: green; */
+
+            img{
+                object-fit: contain;
+                width: 100%;
+                height: fit-content;
+                /* max-height: calc(100vh - 150px); */
+            }
+        }
+    }
+}
+
+@keyframes ampliar { 0% { scale: 100%; } 100% { scale: 104%; } }
+
+/* ============== RESPONSIVE ============= */
+
+ /* xs */
+@media (min-width: 478px) {
+    .carousel-welcome {
+
+        .carousel-inner {
+
+            .content-slide-welcome {
+                width: 100%;
+
+                img{
+                    object-fit: contain;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/* sm */
+/* @media (min-width: 640px) { } */
+
+ /* md */
+/* @media (min-width: 768px) { } */
+
+ /* lg */
+/* @media (min-width: 1024px) { } */
+
+ /* xl */
+/* @media (min-width: 1280px) { } */
+
+/* xl */
+@media (min-width: 1350px) {
+    .carousel-welcome {
+
+        .carousel-inner {
+
+            .content-slide-welcome {
+
+                img{
+                    object-fit: cover;
+                    height: calc(100dvh - 120px);
+                }
+            }
+        }
+    }
+}

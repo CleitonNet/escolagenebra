@@ -1,0 +1,7 @@
+@import '../tailwindcss.css';
+@import './layout/reset.css';
+@import './layout/header.css';
+@import './layout/aside-left.css';
+@import './layout/main.css';
+@import './layout/aside-right.css';
+@import './layout/footer.css';

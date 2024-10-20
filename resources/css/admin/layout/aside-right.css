@@ -1,0 +1,15 @@
+#aside-right {
+	display: flex;
+	flex: 1 1 250px;
+	padding: 20px 7px;
+	background: #f0f0f0;
+	border-left: 2px double rgba(255, 255, 255, 0.7);
+	height: var(--max-height);
+}
+
+@media (max-width: 952px) {
+    #aside-right {
+        display: none;
+    }
+}
+

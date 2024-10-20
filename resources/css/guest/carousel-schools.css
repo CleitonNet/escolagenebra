@@ -1,0 +1,142 @@
+.carousel-schools {
+    padding-bottom: 90px;
+
+    .carousel-inner {
+
+        .content-slide-schools {
+            width: 100%;
+            display: grid;
+            border: solid var(--azul);
+            border-top-width: 5px;
+            border-bottom-width: 5px3d;
+            border-left-width: 10px;
+            border-right-width: 10px;
+            border-radius: 50px;
+            overflow: hidden;
+            box-shadow: inset 0 0 10px var(--azul);
+
+            .school-image {
+                height: 400px;
+                background-position: center;
+                background-size: cover;
+                box-shadow: 0 0 10px var(--azul);
+            }
+
+            .school-data {
+                max-height: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 30px 20px 40px;
+                gap: 25px;
+
+                .content-text {
+                    display: grid;
+                    gap: 10px;
+
+                    .school-title {
+                        font-size: clamp(1.9rem, 3vw, 3rem);
+                        font-weight: 700;
+                        color: var(--azul);
+                        text-align: center;
+                    }
+
+                    .school-text {
+                        font-size: clamp(1rem, 1.4vw, 1.2rem);
+                        font-weight: 400;
+                        display: flex;
+                        align-items: center;
+                        gap: 25px;
+                    }
+                    .school-text:nth-child(4) { align-items: start; }
+                }
+
+                .school-btns {
+                    display: grid;
+                    gap: 10px;
+
+                    .school-btn {
+                        padding: 0.5rem 2rem;
+                        transition: all ease-in-out 200ms;
+                        text-align: center;
+                        border-top-width: 1px;
+                        border-bottom-width: 1px;
+                        border-left-width: 4px;
+                        border-right-width: 4px;
+                        border-radius: 0.75rem;
+                        width: 100%;
+                        min-width: fit-content;
+                        font-weight: 600;
+                    }
+                    .school-btn1 {
+                        background-color: var(--vermelho);
+                        border-color: var(--vermelho);
+                        color: white;
+                    }
+                    .school-btn2 {
+                        background-color: rgb(0 0 0 / .15);
+                        border-color: var(--vermelho);
+                        color: var(--vermelho);
+                    }
+
+                    .school-btn1:hover {
+                        background-color: rgb(0 0 0 / .15);
+                        color: var(--vermelho);
+                    }
+                    .school-btn2:hover {
+                        background-color: var(--vermelho);
+                        border-color: var(--vermelho);
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ============== RESPONSIVE ============= */
+/* sm */
+@media (min-width: 640px) {
+    .carousel-schools {
+
+        .carousel-inner {
+
+            .content-slide-schools {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+
+                .school-data {
+                    padding: 60px 20px;
+
+                    .content-text {
+                        .school-title {
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+ /* lg */
+ @media (min-width: 1024px) {
+    .carousel-schools {
+
+        .carousel-inner {
+
+            .content-slide-schools {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 20px;
+
+                .school-data {
+                    padding: 60px 20px;
+
+                    .school-btns {
+                        display: grid;
+                        grid-template-columns: repeat(2, minmax(0, 1fr));
+                    }
+                }
+            }
+        }
+    }
+}

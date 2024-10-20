@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face { font-family: 'Smoothy-Regular'; src: url('/resources/fonts/smoothy.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Century'; src: url('/resources/fonts/century.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --azul-200: #365498;
+    --azul: #1B365D;
+    --azul2: #00355e;
+    --vermelho: #BE3A34;
+    --vermelho2: #ff3334;
+    --amarelo: #F0B323;
+    --grafite: #222224;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.shadow-inset {
+    box-shadow: inset 0 0 10px 0px #000;
+}
+
+.title-header {
+    font-size: clamp(4rem, 8vw, 8rem);
+}
+
+p {
+    line-height: 1.9;
+}

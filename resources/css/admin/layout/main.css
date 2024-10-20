@@ -1,0 +1,61 @@
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	flex: 20 1 500px;
+	padding: 16px 8px 20px;
+	scroll-behavior: smooth;
+    position: relative;
+	background: var(--main);
+	height: var(--max-height);
+	overflow: auto;
+
+	::-webkit-scrollbar {
+		width: 4px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: #cecece;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: #646''464;
+	}
+
+	#title-page {
+		display: flex;
+		align-items: center;
+		gap: 7px;
+		background: rgba(255,255,255,.5);
+		border-radius: 10px 10px 0 0;
+		border: solid 2px rgba(255,255,255,.5);
+		padding: 10px 15px 5px;
+		width: 100%;
+		position: relative;
+
+		h1 {
+			font-family: "Cinzel", sans-serif;
+			font-weight: 500;
+			font-style: normal;
+			font-size: 16pt;
+			color: var(--primary);
+		}
+	}
+	.content {
+		gap: 5px;
+		background: rgba(255,255,255,.3);
+		border: solid 2px rgba(255,255,255,.5);
+		padding: 10px 15px;
+		width: 100%;
+		position: relative;
+	}
+	.content:last-child {
+		border-radius: 0 0 5px 5px;
+	}
+}
+
+@media only screen and (max-width: 717px) {
+	main {
+		padding: 6px;
+	}
+}
