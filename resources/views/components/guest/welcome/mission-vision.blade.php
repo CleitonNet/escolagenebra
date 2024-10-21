@@ -10,9 +10,10 @@
                     <div class="h-3 w-3 bg-amarelo rounded-full"></div>
                     <div class="h-3 w-3 bg-azul-200 rounded-full"></div>
                 </div>
-                Visão <img src="{{ asset('img/visao-compartilhada_2.webp') }}" alt="icon" class="object-contain h-12">
+                Visão
+                {{-- <img src="{{ asset('img/visao-compartilhada_2.webp') }}" alt="icon" class="object-contain h-12"> --}}
             </div>
-            <div class="font-smoothy text-3xl sm:text-4xl md2:text-5xl italic pt-1">Ser a Escola Cristã referência em excelência acadêmica no Brasil até 2030</div>
+            <div class="text-[1.3rem] sm:text-[1.5rem] md2:text-[1.85rem] pt-1">Ser a Escola Cristã referência em excelência acadêmica no Brasil até 2030</div>
         </div>
         <div>
             <div class="flex gap-2 py-1 items-center font-bold text-4xl justify-center border-2 border-azul2 rounded-lg relative">
@@ -21,9 +22,10 @@
                     <div class="h-3 w-3 bg-amarelo rounded-full"></div>
                     <div class="h-3 w-3 bg-azul-200 rounded-full"></div>
                 </div>
-                Missão <img src="{{ asset('img/missao_2.webp') }}" alt="icon" class="object-contain h-12">
+                Missão
+                {{-- <img src="{{ asset('img/missao_2.webp') }}" alt="icon" class="object-contain h-12"> --}}
             </div>
-            <div class="font-smoothy text-3xl sm:text-4xl md2:text-5xl italic pt-1">Formar os futuros reformadores da fé e da sociedade.</div>
+            <div class="text-[1.3rem] sm:text-[1.5rem] md2:text-[1.85rem] pt-1">Formar os futuros reformadores da fé e da sociedade.</div>
         </div>
         <div>
             <div class="flex gap-2 py-1 items-center font-bold text-4xl justify-center border-2 border-azul2 rounded-lg relative">
@@ -32,9 +34,10 @@
                     <div class="h-3 w-3 bg-amarelo rounded-full"></div>
                     <div class="h-3 w-3 bg-azul-200 rounded-full"></div>
                 </div>
-                Valores <img src="{{ asset('img/diamante.webp') }}" alt="icon" class="object-contain h-12">
+                Valores
+                {{-- <img src="{{ asset('img/diamante.webp') }}" alt="icon" class="object-contain h-12"> --}}
             </div>
-            <div class="font-smoothy text-3xl sm:text-4xl md2:text-5xl italic pt-1">Amor, fé e brio</div>
+            <div class="text-[1.3rem] sm:text-[1.5rem] md2:text-[1.85rem] pt-1">Amor, fé e brio</div>
         </div>
     </div>
 

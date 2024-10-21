@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     {{-- @vite(['resources/css/guest/styles.css', 'resources/js/guest/scripts.js']) --}}
-    <link rel="stylesheet" type="text/css" href="{{ asset('build/assets/styles-DKRi6DfH.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('build/assets/styles-CfmYL6gq.css') }}">
     @stack('head')
 
     {{-- <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script> --}}
