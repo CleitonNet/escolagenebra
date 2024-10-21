@@ -18,7 +18,7 @@
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-	<link rel="stylesheet" type="text/css" href="{{ asset('build/assets/app-Cggm1cH5.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('build/assets/app-DVQ1lu9r.css') }}">
     {{-- @vite(['resources/css/admin/app.css', 'resources/js/admin/app.js']) --}}
 
 	<title>{{ $title ?? '' }} :: Escola Cristã Genebra</title>
@@ -61,6 +61,6 @@
         </div>
 	</footer>
 
-	<script type="module" src="{{ asset('build/assets/app-CgxOnVNB.js') }}"></script>
+	<script type="module" src="{{ asset('build/assets/app-DVQ1lu9r.css') }}"></script>
     @livewireScripts
 </body>

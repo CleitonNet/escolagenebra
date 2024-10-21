@@ -1,4 +1,4 @@
-@props(['slides'])
+{{-- @props(['slides'])
 
 <div x-data="{
     currentSlide: 0, slides: {{ $slides }}, init() { setInterval(() => { this.nextSlide(); }, 7000); // 7 segundos },
@@ -46,4 +46,4 @@
             ></div>
         </template>
     </div>
-</div>
+</div> --}}

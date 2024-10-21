@@ -8,7 +8,7 @@
                 <a class="carousel-item content-slide-welcome" @if($slide->btnactionSlide) target="_blank" href="{{ $slide->btnactionSlide }}" @endif>
 
                     @if ($slide->verticalImage === null || $slide->verticalImage === '')
-                    <img src="{{ asset('storage/'.$slide->image) }}" alt="welcome">
+                    <img src="{{ asset('storage/'.$slide->image) }}" alt="welcome" @if($loop->index !== 0) loading="lazy"  @endif>
                     @else
                     <img src="{{ asset('storage/'.$slide->image) }}" alt="welcome" class="@if($slide->verticalImage) hidden sm:block @endif">
                     <img src="{{ asset('storage/'.$slide->verticalImage) }}" alt="welcome" class="@if($slide->verticalImage) block sm:hidden @endif">
