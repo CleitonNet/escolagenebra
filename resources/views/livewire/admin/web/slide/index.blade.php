@@ -27,22 +27,4 @@
         @endif
     </x-action-message>
 
-    <div>
-        <select class="p-2 w-96 border rounded mt-10">
-
-            <option value="" hidden>Selecione</option>
-
-            @foreach ($slides as $slide)
-
-                <option value="">{{ $slide->id }}</option>
-
-            @endforeach
-
-        </select>
-    </div>
-
-
-
-
-
 </div>
