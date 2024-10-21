@@ -22,4 +22,5 @@ Route::name('guest.')->group(function() {
         Route::get('/ensino-medio',           [WebsiteController::class, 'high_school'       ])->name('high-school');
     });
     Route::get('/matricula',              [WebsiteController::class, 'enrollment'          ])->name('enrollment');
+    Route::get('/gallery',              [WebsiteController::class, 'gallery'          ])->name('gallery');
 });

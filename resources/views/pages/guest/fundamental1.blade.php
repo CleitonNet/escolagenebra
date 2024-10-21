@@ -14,7 +14,6 @@
                 <div class="col-span-5"></div>
             </x-guest.container>
 
-            {{-- <div class="absolute top-0 bottom-0 flex md:max-w-[50%] w-full left-0 sm:rounded-e-full md:bg-azul h-full"></div> --}}
             <div class="absolute top-0 bottom-0 flex right-0 md:max-w-[50%] w-full left-0 z-10 md:rounded-e-full bg-azul opacity-90 md:opacity-100 h-full"></div>
 
             <img src="{{ asset('img/fundamental12.webp') }}" alt="fundamental 1" class="z-0 absolute bottom-0 pl-[2vw] md:pl-80 object-cover md:object-contain right-0 md:right-auto h-[90%] md:h-[82%]" style="filter: drop-shadow(0 0 10px #000)">
@@ -43,7 +42,7 @@
                         <img src="{{ asset('img/lupa1.webp') }}" alt="image" class="md:hidden absolute top-0 bottom-0 object-cover w-2/4 h-full">
                         <img src="{{ asset('img/lupa2.webp') }}" alt="image" class="object-contain h-full md:hidden z-20">
                     </div>
-                    <div class="flex items-center flex-auto">
+                    <div class="flex md2:items-center flex-auto">
                         <div class="px-10">
                             <h3 class="pb-4 font-bold">🧠Problem Based Learning</h3>
                             <p class="leading-5">Inspirados pelo modelo suíço de educação, integramos o PBL no currículo para incentivar a resolução de problemas reais. Esse método exclusivo da Genebra coloca o aluno no centro do aprendizado, promovendo curiosidade, pensamento crítico e colaboração em atividades práticas e instigantes.</p>
@@ -54,41 +53,41 @@
             </div>
 
             <div class="grid md2:grid-cols-5 min-h-[550px] gap-20 relative">
-                <img src="{{ asset('img/experience2.webp') }}" alt="image" class="absolute bottom-0 object-contain h-[100%] z-10 md2:opacity-100 opacity-50 blur-sm md2:blur-none">
-                <div class="col-span-2 bg-center bg-no-repeat bg-cover" style="background-image: url({{ asset('img/experience1.webp') }});"></div>
-                <div class="z-20 flex flex-col justify-around col-span-3 py-10 md2:pl-24 px-6" style="text-shadow: 1px 1px 3px #fff">
+                <img src="{{ asset('img/experience2.webp') }}" alt="image" class="absolute bottom-0 object-contain h-[100%] z-10 md2:opacity-100 opacity-50 blur-sm md2:blur-none hidden lg:block">
+                <div class="col-span-2 bg-center bg-no-repeat bg-cover hidden lg:block" style="background-image: url({{ asset('img/experience1.webp') }});"></div>
+                <div class="z-20 flex flex-col justify-around col-span-3 py-4 md:py-10 md2:pl-24 px-6" style="text-shadow: 1px 1px 3px #fff">
                     <div>
-                        <h3 class="pb-4 font-bold">🔡 Alfabetização pelo Método Fônico</h3>
+                        <h3 class="py-4 font-bold">🔡 Alfabetização pelo Método Fônico</h3>
                         <p class="text-justify">A alfabetização dos nossos alunos é conduzida através do Método Fônico, uma abordagem eficaz que foca na associação entre letras e sons, promovendo uma base sólida na leitura e escrita.</p>
                     </div>
                     <div>
-                        <h3 class="pb-4 font-bold">✍️ Valorização da Letra Cursiva</h3>
+                        <h3 class="py-4 font-bold">✍️ Valorização da Letra Cursiva</h3>
                         <p class="text-justify">A partir do 1º ano, nossos alunos são incentivados a utilizar a letra cursiva, um importante aliado no desenvolvimento cognitivo e motor, além de fortalecer a fluência na escrita.</p>
                     </div>
                     <div>
-                        <h3 class="pb-4 font-bold">🕒 Rotina de Aulas Balanceada</h3>
+                        <h3 class="py-4 font-bold">🕒 Rotina de Aulas Balanceada</h3>
                         <p class="text-justify">Nossas aulas possuem 40 minutos de duração, seguidas de intervalos de 30 minutos, promovendo o equilíbrio perfeito entre foco e descanso, favorecendo uma absorção mais eficiente dos conteúdos.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="relative flex flex-col sm:flex-row items-end sm:items-center mt-10">
-                <div class="z-20 flex flex-col justify-center gap-12 py-6 pl-10 pr-2" style="text-shadow: 1px 1px 3px #fff">
+            <div class="relative flex flex-col md:flex-row items-end md:items-center md:mt-10">
+                <div class="z-20 flex flex-col justify-center gap-4 md:gap-12 md:py-6 px-6 md:pl-10 md:pr-2" style="text-shadow: 1px 1px 3px #fff">
                     <div>
                         <h3 class="pb-4 font-bold">🖥️ Tecnologia Integrada e Monitoramento</h3>
-                        <p>Utilizamos ferramentas tecnológicas com inteligência artificial para acompanhar de perto o desenvolvimento dos nossos alunos, garantindo um acompanhamento contínuo e personalizado das suas habilidades de leitura e escrita.</p>
+                        <p class=" text-justify md:text-left">Utilizamos ferramentas tecnológicas com inteligência artificial para acompanhar de perto o desenvolvimento dos nossos alunos, garantindo um acompanhamento contínuo e personalizado das suas habilidades de leitura e escrita.</p>
                     </div>
                     <div>
                         <h3 class="pb-4 font-bold">👩‍🏫 Turmas Reduzidas e Atenção Individualizada</h3>
                         <p>Com turmas de até 18 alunos e coordenações especializadas, asseguramos que cada criança receba o apoio e a atenção que necessita para florescer academicamente e pessoalmente.</p>
                     </div>
                 </div>
-                <img src="{{ asset('img/handbook.webp') }}" alt="image" class="object-cover max-w-96">
+                <img src="{{ asset('img/handbook.webp') }}" alt="image" class="object-cover max-w-[70%] md:max-w-96">
             </div>
 
         </div>
 
-        <img src="{{ asset('img/inteligencia-artificial.webp') }}" alt="inteligencia artificial" class="object-contain w-full -mt-[29px]">
+        <img src="{{ asset('img/inteligencia-artificial.webp') }}" alt="inteligencia artificial" class="object-contain w-full -mt-[8px] md:-mt-[29px]">
 
         <x-guest.container>
             <div class="pb-10 text-justify">

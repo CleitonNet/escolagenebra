@@ -24,7 +24,7 @@ window.onscroll = function () {
     prevScrollpos = currentScrollPos;
 }
 
-new Swiper('.swiper', {
+new Swiper('.segments', {
     loop: true,
     grabCursor: true,
     slidesPerView: 1,
@@ -54,5 +54,6 @@ new Swiper('.swiper', {
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
-    }
+        dynamicBullets: true,
+    },
 });

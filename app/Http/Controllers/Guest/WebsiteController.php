@@ -20,4 +20,5 @@ class WebsiteController extends Controller
     public function fundamental2()       { return view('pages.guest.fundamental2');       }
     public function high_school()        { return redirect()->away('https://ib.escolagenebra.com.br/');     }
     public function enrollment()           { return view('pages.guest.enrollment');           }
+    public function gallery()           { return view('pages.guest.gallery');           }
 }
