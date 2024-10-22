@@ -13,7 +13,7 @@
 
         <a href="https://ib.escolagenebra.com.br/" aria-label="International Baccalaureate" target="_blanc" class="text-[9px] xs:text-[10px] sm:text-[12px] leading-[14px] font-light">
             <div class="opacity-80 text-nowrap leading-[10px] xs:leading-3 sm:leading-4">Cadidate School for</div>
-            <div class="opacity-80 text-nowrap leading-[10px] xs:leading-3 sm:leading-4">Diploma Programme<sup>*</sup>from</div>
+            <div class="opacity-80 text-nowrap leading-[10px] xs:leading-3 sm:leading-4">Diploma Programme<sup>*</sup> from</div>
             <div class="opacity-80 text-nowrap leading-[10px] xs:leading-3 sm:leading-4">International Baccalaureate</div>
         </a>
     </div>
