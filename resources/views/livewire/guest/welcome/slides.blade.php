@@ -1,4 +1,4 @@
-<div class="pt-20 carousel-container carousel-welcome">
+<div class="pt-16 md:pt-20 carousel-container carousel-welcome">
     @if ($slides->count() >= 1)
 
     <div class="carousel-inner">
