@@ -13,7 +13,7 @@
                 Visão
                 {{-- <img src="{{ asset('img/visao-compartilhada_2.webp') }}" alt="icon" class="object-contain h-12"> --}}
             </div>
-            <div class="text-[1.3rem] sm:text-[1.5rem] md2:text-[1.85rem] pt-1">Ser a Escola Cristã referência em excelência acadêmica no Brasil até 2030</div>
+            <div class="text-[1.3rem] sm:text-[1.5rem] md2:text-[1.85rem] pt-1">Ser a Escola Cristã referência em excelência acadêmica no Brasil até 2030.</div>
         </div>
         <div>
             <div class="flex gap-2 py-1 items-center font-bold text-4xl justify-center border-2 border-azul2 rounded-lg relative">
@@ -37,7 +37,7 @@
                 Valores
                 {{-- <img src="{{ asset('img/diamante.webp') }}" alt="icon" class="object-contain h-12"> --}}
             </div>
-            <div class="text-[1.3rem] sm:text-[1.5rem] md2:text-[1.85rem] pt-1">Amor, fé e brio</div>
+            <div class="text-[1.3rem] sm:text-[1.5rem] md2:text-[1.85rem] pt-1">Amor, fé e brio.</div>
         </div>
     </div>
 

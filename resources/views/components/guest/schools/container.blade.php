@@ -14,7 +14,7 @@
     <x-guest.header :image="asset('img/foto7-horizontal.webp')" alignment="center">
         <div data-aos="zoom-out-right" class="flex flex-col justify-center">
             <div class="text-8xl ">Unidades</div>
-            <div class="text-5xl font-normal leading-[50px] md:leading-[65px] lg:leading-[75px] xl:leading-[95px]">Clique sobre a unidade desejada para realizar a pré-matrícula</div>
+            <div class="text-5xl font-normal leading-[50px] md:leading-[65px] lg:leading-[75px] xl:leading-[95px]">Clique na unidade desejada para realizar a pré-matrícula</div>
         </div>
     </x-guest.header>
 

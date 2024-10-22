@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     @vite(['resources/css/guest/styles.css', 'resources/js/guest/scripts.js'])
-    <link rel="stylesheet" type="text/css" href="{{ asset('build/assets/styles-CMRtW-sB.css') }}">
+    {{-- <link rel="stylesheet" type="text/css" href="{{ asset('build/assets/styles-CyZJpRdx.css') }}"> --}}
 
     @stack('head')
 
@@ -48,7 +48,7 @@
     <x-guest.whatsapp />
     <x-guest.footer />
 
-    <script defer type="module" src="{{ asset('build/assets/scripts-Fv2M8weT.js') }}"></script>
+    {{-- <script defer type="module" src="{{ asset('build/assets/scripts-Fv2M8weT.js') }}"></script> --}}
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>AOS.init();</script>
