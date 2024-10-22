@@ -1,29 +1,3 @@
-@push('head')
-    <style>
-        summary {
-            list-style: none;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            position: relative;
-            padding-right: 25px;
-        }
-
-        summary::before {
-            position: absolute;
-            right: 0;
-            content: "\27A4";
-            display: inline-block;
-            margin-right: 8px;
-            transition: transform 0.3s ease-in-out;
-            transform: rotate(-90deg);
-        }
-
-        details[open] summary::before {
-            transform: rotate(90deg);
-        }
-    </style>
-@endpush
 <x-guest.container class="mb-28">
 
     <h2 class="pb-10 text-5xl font-bold text-center xl:text-6xl">Perguntas frequentes</h2>

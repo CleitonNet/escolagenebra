@@ -8,7 +8,7 @@
     <livewire:guest.welcome.segments />
     <livewire:guest.welcome.newsletter lazy />
     <livewire:guest.welcome.store lazy />
-    <livewire:guest.welcome.school-slider lazy />
+    <livewire:guest.welcome.school-slider/>
     <livewire:guest.welcome.question lazy />
 
 </x-guest-layout>

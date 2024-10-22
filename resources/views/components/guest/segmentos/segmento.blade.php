@@ -1,6 +1,6 @@
 @props(['stitle','description','gotoURL','image','duration'])
 
-<a href="{{ $gotoURL }}" data-aos="fade-left" data-aos-duration="{{ $duration }}" {{ $attributes->merge(['class'=>'segmento swiper-slide']) }}>
+<a href="{{ $gotoURL }}" data-aos="fade-left" data-aos-duration="{{ $duration }}" {{ $attributes->merge(['class'=>'segment swiper-slide']) }}>
 
     <div class="overflow-hidden relative bg-cover border-2 border-azul h-[500px] bg-center rounded-xl" style="background-image: url({{ asset($image) }}); font-size: 400%">
         <div class="absolute bottom-0 left-0 right-0 top-44 bg-gradient-to-t from-azul via-azul/90 to-transparent"></div>
