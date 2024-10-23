@@ -1,4 +1,4 @@
-<nav x-data="{ open: false }" class="border-b backdrop-blur border-gray-100 fixed transition top-0 left-0 right-0 z-[9999] bg-white" style="box-shadow: 0 1px 15px 0 rgba(0,0,0,.3)">
+<nav x-data="{ open: false }" class="border-b backdrop-blur border-gray-100 fixed top-0 left-0 right-0 z-[9999] bg-white" style="box-shadow: 0 1px 15px 0 rgba(0,0,0,.3)">
     <div class="mx-auto px-2 md:px-4 max-w-7xl">
         <!-- Primary Navigation Menu -->
         <div class="flex justify-between h-16 md:h-20 gap-1">

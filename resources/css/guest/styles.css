@@ -4,6 +4,12 @@
 @import './carousel-schools.css';
 @import './footer.css';
 
+nav {
+    transition: transform .3s linear;
+    /* Ponto inicial da barra de navegação */
+    transform: translateY(0);
+}
+
 .segment .segment_more {
     transform: translateY(0);
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5)

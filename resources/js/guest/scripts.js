@@ -14,11 +14,11 @@ window.onscroll = function () {
     var currentScrollPos = window.scrollY;
     if (Math.abs(prevScrollpos - currentScrollPos) > scrollThreshold) {
         if (prevScrollpos > currentScrollPos) {
-            header.classList.add('fixed');
-            header.classList.remove('hidden');
+            // Rolando para cima, barra de navegação desce
+            header.style.transform = "translateY(0)";
         } else {
-            header.classList.remove('fixed');
-            header.classList.add('hidden');
+            // Rolando para baixo, barra de navegação sobe
+            header.style.transform = "translateY(-200%)";
         }
     }
     prevScrollpos = currentScrollPos;

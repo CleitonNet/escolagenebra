@@ -2,9 +2,8 @@
 <html lang="pt-br">
 
 <head>
-    {{-- <meta name="description" content="Author: Cleiton dos Santos, Design: Dreyfus, Category: Site Escola Cristã, Length: 11 pages"> --}}
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="Uma escola que nasceu para glória de Deus.">
 
@@ -26,7 +25,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     {{-- @vite(['resources/css/guest/styles.css', 'resources/js/guest/scripts.js']) --}}
-    <link rel="stylesheet" type="text/css" href="{{ asset('build/assets/styles-DyDobz8F.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('build/assets/styles-CVRDwRLo.css') }}">
 
     <!-- Meta Pixel Code -->
     <script> ! function(f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function() { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s) }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '998240424750871'); fbq('track', 'PageView'); </script>
@@ -46,7 +45,7 @@
     <x-guest.whatsapp />
     <x-guest.footer />
 
-    <script defer type="module" src="{{ asset('build/assets/scripts-Fv2M8weT.js') }}"></script>
+    <script defer type="module" src="{{ asset('build/assets/scripts-BwIzL96j.js') }}"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>AOS.init();</script>
